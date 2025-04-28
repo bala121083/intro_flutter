@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
+import 'screens/HomeScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'InstaClone',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginScreen(),
+      home: HomeScreen(),
     );
   }
 }
